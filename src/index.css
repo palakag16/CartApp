@@ -1,0 +1,98 @@
+
+.grid_wrapper{
+width :100%;
+display:grid;
+grid-template-columns: 18% 18% 18% 18% 18%;
+grid-gap: 1.5rem;
+}
+.grid_item_1{
+  border:1px solid blue;
+  width:100%;
+}
+.img_style{
+  width:100%;
+  background-size: contain;
+  object-fit: cover;
+  background-position: center;
+ height:12rem;
+}
+.item_title{
+  font-family:cursive;
+  text-align: center;
+  text-transform: capitalize;
+}
+.item_desc{
+  font-size: 12px;
+  color: grey;
+  font-family: sans-serif;
+  padding:0 0.2rem;
+  text-align: center;
+}
+.add_btn{
+  background-color: blue;
+  color:white;
+  font-size: 1.2rem;
+  text-align: center;
+  padding:0.5rem;
+  font-family: sans-serif;
+}
+.heading{
+  font-family: sans-serif;
+  text-align: center;
+}
+.item_in_cart{
+  text-align: right;
+  padding: 1rem;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+.cart_wrapper{
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin:1
+}
+.items_wrapper{
+  margin-top: 1rem;
+  width:45%;
+  background-color: azure;
+}
+.cart_item_one{
+  background-color: azure;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cartitemimg{
+  height:45px;
+  width:45px;
+  border-radius: 50%;
+}
+.add_del_btns{
+  display: flex;
+  align-items: center;
+}
+.add_del_btns div{
+  background-color: blue;
+  color:white;
+  margin:0.15rem;
+  padding:3px 6px;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+.subtotal_sect{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+.price{
+  font-family: sans-serif;
+}
+.btn_green{
+  background-color: green;
+  color:white;
+}
